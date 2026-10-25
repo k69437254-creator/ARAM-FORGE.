@@ -1,0 +1,13 @@
+ARAM FORGE build status
+
+Static validation completed:
+- Android XML files parsed successfully.
+- GitHub Actions workflow YAML parsed successfully.
+- HTML structure and IDs checked.
+- CSS parsed with no syntax errors found.
+- Inline JavaScript passed Node.js syntax validation.
+
+No APK was built in the creation environment because Gradle and the Android SDK are not installed.
+Use the included GitHub Actions workflow (.github/workflows/build-apk.yml) to build app-debug.apk after pushing this project to a GitHub repository and running the workflow.
+
+Important: GitHub public repository browsing works online. AI requires a compatible provider endpoint/key. Private GitHub operations require OAuth/GitHub App plus a secure backend. VPN tunnel/server is not configured in this prototype.
